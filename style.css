@@ -1,0 +1,21 @@
+body{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+/* all the objects */
+#main{
+    background-color: blue;
+    width: 95vw;
+    height: 95vh;
+}
+/* containers */
+
+.container{}
+/* Drawer */
+#searchSection{
+    background-color: green;
+    width: 0;
+    height: 95vh;
+    visibility: collapse;
+}
