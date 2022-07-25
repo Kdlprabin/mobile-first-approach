@@ -7,10 +7,13 @@
         width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
+    #container2{
+        width: 100%;
+        justify-content: space-between;
+    }
     #container3{
         width: 100%;
         border-radius: 0px 0px 20px 20px;
-
     }
     #temp-date{
         height: 100%;
@@ -19,6 +22,31 @@
     #info1,#info2,#info3{
         width: 0;
         height: 0;
+    }
+    
+    #clock{
+        visibility: collapse;
+        height: 0;
+        width: 0;
+    }
+    #title{
+        font: 0.1rem;
+        position: absolute;
+        visibility: collapse;
+    }
+    #clock{
+        visibility: collapse;
+        width: 0;
+        height: 0;
+    }
+    #overview-four-boxes{
+        height: 100%;
+    }
+    #four-boxes{
+        height: 80%;
+    }
+    #overview{
+        line-height: 0;
     }
 }
 /* tablets */
@@ -30,6 +58,9 @@
         width: 100%;
         border-radius: 20px 20px 0px 0px;
     }
+    #container2{
+        width: 100%;
+    }
     #container3{
         width: 100%;
         border-radius: 0px 0px 20px 20px;
@@ -41,6 +72,30 @@
     #info1,#info2,#info3{
         width: 0;
         height: 0;
+    }
+    #clock{
+        visibility: collapse;
+        height: 0;
+        width: 0;
+    }
+    #clock{
+        visibility: collapse;
+        width: 0;
+        height: 0;
+    }
+    #overview-four-boxes{
+        height: 100%;
+    }
+    #overview{
+        line-height: 0;
+    }
+    #title{
+        font: 0.1rem;
+        position: absolute;
+        visibility: collapse;
+    }
+    #four-boxes{
+        height: 80%;
     }
 }
 
