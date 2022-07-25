@@ -1,19 +1,76 @@
+*{
+    font-size: 24px;
+}
+
 body{
     background-color: yellow;
     display: flex;
     justify-content: center;
 }
+
 /* all the objects */
 #main{
     background-color: blue;
     width: 95vw;
     height: 95vh;
+    display: flex;
+    border-radius: 20px;
 }
-/* containers */
 
-.container{}
+/* containers */
+.container{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    background-color: grey;
+
+}
+#container1{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/* information boxes in container1 */
+
+#temp-date{
+    background-color: red;
+    height: 30%;
+    width: 100%;
+    border-radius: 20px 0px 20px 20px;
+}
+#info1,#info2,#info3{
+    background-color: red;
+    height: 23%;
+    width: 100%;
+    border-radius: 20px;
+}
+#info3{
+    border-radius: 20px 20px 0px 20px;
+}
+
+
+#container2{
+    width: 100%;
+    border-radius: 0;
+    background-image: url(images/night.jpg);
+    background-size: cover;
+}
+
+/* container 2 elements */
+#title{
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#container3{
+    width: 80%;
+    border-radius:0px 20px 20px 0px;
+}
+
+
 /* Drawer */
 #searchSection{
+    border-radius: 20px;
     background-color: green;
     width: 0;
     height: 95vh;
