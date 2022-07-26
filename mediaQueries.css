@@ -6,6 +6,7 @@
     }
     #main{
         flex-direction: column;
+        width: 95%;
     }
     #container1{
         width: 100%;
