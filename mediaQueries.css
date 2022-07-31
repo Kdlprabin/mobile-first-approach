@@ -55,9 +55,10 @@
     }
 }
 /* tablets */
-@media screen and (max-width:768px){
+@media screen and (max-width:992px){
     #main{
         flex-direction: column;
+        width: 70vw;
     }
     .container{
         width: 100%;
@@ -107,7 +108,6 @@
         height: 80%;
     }
 }
-
 /* desktop and laptop size */
 @media screen and (min-width:992px){
     #searchSection{
